@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End - HTML</title>
+    <style>
+        header{
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            background-color: aquamarine;
+            padding: 20px;
+        }
+        footer{
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+            background-color: aquamarine;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        .lateral {
+            font-size: 20px;
+            float: left;
+            width: 10%;
+            padding: 15px;
+            box-sizing: border-box;
+            height: 1420px;
+            background-color: rgb(207, 207, 207);
+            margin-right: 20px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>Desarrollo de Software - HTML</header>
+    <main>
+        <div class="lateral">
+            <nav>
+                <ul>
+                    <p>Índice</p>
+                    <li><a href="#1">Punto 1</a></li>
+                    <li><a href="#2">Punto 2</a></li>
+                    <li><a href="#3">Punto 3</a></li>
+                    <li><a href="#4">Punto 4</a></li>
+                    <li><a href="#5">Punto 5</a></li>
+                    <li><a href="#6">Punto 6</a></li>
+                    <li><a href="#7">Punto 7</a></li><br>
+                    <p>Mas info:</p>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Click Aqui!</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section id="1">
+            <h1>1. Estructura Básica del Documento HTML</h1>
+            <p>Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título.</p>
+            <hr>
+        </section>
+        <section id="2">
+            <h1>2. Encabezados y Propiedades del texto</h1>
+            <h1>Este es un h1 en Negrita.</h1>
+            <h2 style="font-style: italic;">Este es un h2 en Cursiva.</h2>
+            <h3 style="text-decoration: underline;">Este es un h3 Subrayado.</h3>
+            <h4>Este es un h4 en Negrita.</h4>
+            <h5 style="font-style: italic;">Este es un h5 en Cursiva.</h5>
+            <h6 style="text-decoration: underline;">Este es un h6 Subrayado.</h6>
+            <hr>
+        </section>
+        <section id="3">
+            <h1>3. Divisiones y Agrupación de Contenido</h1>
+            <div>
+                <h3>Sección 1</h3>
+                <p>Contenido de la primera sección agrupada en un div.</p>
+            </div>
+            <div>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda sección agrupada en un div.</p>
+            </div>
+            <hr>
+        </section>
+        <section id="4">
+            <h1>4. Top 5 mejores comidas</h1>
+            <ol style="margin-left: 10%;">
+                <li>Milanga a la napolitana</li>
+                <li>Lomo con papas</li>
+                <li>Ravioles con tuco</li>
+                <li>Niños envueltos</li>
+                <li>Asado completo</li>
+                <hr>
+            </ol>
+        </section>
+        <section id="5">
+            <h1>5. Elementos Multimedia</h1>
+            <img width="300px" src="https://i.blogs.es/7ed95e/scale/840_560.png" 
+            alt="Foto durísima de Homero Simpson">
+            <video controls width="500px"source src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4">
+                
+            </video>
+            <audio controls src="https://download.blender.org/peach/trailer/trailer_1080p.ogg"></audio>
+            <hr>
+        </section>
+        <section id="6">
+            <h1>6. Tablas</h1>
+            <table border="1">
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                </tr>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </table>
+            <hr>
+        </section>
+        <section id="7">
+            <h1>7. Formularios</h1>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Yamil Tahan - Desarrollo de Software - 2024</p>
+    </footer>  
+</body>
+</html>
