@@ -1,2 +1,3 @@
 # DesarrolloDeSoftware2024
-No se bro XD salu2
+Ejecutar con un Navegador Web
+El negrito ojos claros
